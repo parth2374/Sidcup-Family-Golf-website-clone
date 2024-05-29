@@ -174,7 +174,7 @@ video {
 }
 #scroller-in {
     display: inline-block;
-    white-space: nowrap;
+    /* white-space: nowrap; */
     animation-name: scroll;
     animation-duration: 35s;
     animation-timing-function: linear;
@@ -193,7 +193,8 @@ video {
 }
 
 #scroller h4:hover {
-    color: #bbff00;
+    color: #95C11E;
+    -webkit-text-stroke: 1px #95C11E;
 }
 
 @keyframes scroll {
